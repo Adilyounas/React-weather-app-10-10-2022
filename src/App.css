@@ -1,0 +1,51 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.maincontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;  
+background-color:black;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 25%;
+  border-radius: 10px;
+  background-color: rgb(212, 169, 255);
+}
+
+.head .inputField{
+  padding: 10px;
+  width: 80%;
+  margin-top: 10px;
+  border-radius: 50px;
+}
+
+.head{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.info h2,h1,p{
+  margin-top: 15px;
+}
+
